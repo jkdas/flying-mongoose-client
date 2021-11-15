@@ -6,14 +6,14 @@ const MakeAdmin = () => {
     const { register, handleSubmit, reset, watch, errors } = useForm();
 
     const onSubmit = (data) => {
-        fetch("http://localhost:5000/makeAdmin", {
+        fetch("https://desolate-falls-28146.herokuapp.com/makeAdmin", {
             method: "PUT",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
         })
             .then((res) => res.json())
             .then((result) => {
-                console.log(result);
+
                 if (result.modifiedCount) {
                     alert("Admin added successfully")
                 }

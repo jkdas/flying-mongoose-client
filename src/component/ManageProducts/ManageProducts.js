@@ -8,7 +8,7 @@ const ManageProducts = () => {
     const [orderId, setOrderId] = useState("");
 
     useEffect(() => {
-        fetch("http://localhost:5000/products")
+        fetch("https://desolate-falls-28146.herokuapp.com/products")
             .then((res) => res.json())
             .then((data) => setProducts(data));
     }, [isDeleted]);
@@ -20,7 +20,7 @@ const ManageProducts = () => {
         console.log(id);
         const deleteConfirm = window.confirm("Are you sure want to delete?");
         if (deleteConfirm) {
-            fetch(`http://localhost:5000/deleteProduct/${id}`, {
+            fetch(`https://desolate-falls-28146.herokuapp.com/deleteProduct/${id}`, {
                 method: "DELETE",
                 headers: { "content-type": "application/json" }
             })

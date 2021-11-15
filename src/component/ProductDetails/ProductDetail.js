@@ -18,7 +18,7 @@ const ProductDetail = () => {
 
     // coursedetails data load from local json data file
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://desolate-falls-28146.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProductDetails(data))
     }, [])
@@ -39,7 +39,7 @@ const ProductDetail = () => {
         /*  tourPackage.email = user.email;
          tourPackage.status = "pending"; */
 
-        fetch(`http://localhost:5000/addOrder`, {
+        fetch(`https://desolate-falls-28146.herokuapp.com/addOrder`, {
             method: "POST",
             headers: {
                 "content-type": "application/json"

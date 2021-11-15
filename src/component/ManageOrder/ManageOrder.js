@@ -9,7 +9,7 @@ const MangeOrder = () => {
     const [orderId, setOrderId] = useState("");
 
     useEffect(() => {
-        fetch("http://localhost:5000/allOrders")
+        fetch("https://desolate-falls-28146.herokuapp.com/allOrders")
             .then((res) => res.json())
             .then((data) => setOrders(data));
     }, [isDeleted]);
@@ -20,7 +20,7 @@ const MangeOrder = () => {
     };
 
     const onSubmit = (data) => {
-        fetch(`http://localhost:5000/statusUpdate/${orderId}`, {
+        fetch(`https://desolate-falls-28146.herokuapp.com/statusUpdate/${orderId}`, {
             method: "PUT",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),
@@ -36,7 +36,7 @@ const MangeOrder = () => {
     const handleDelete = (id) => {
         const deleteConfirm = window.confirm("Are you sure want to delete?");
         if (deleteConfirm) {
-            fetch(`http://localhost:5000/deleteOrder/${id}`, {
+            fetch(`https://desolate-falls-28146.herokuapp.com/deleteOrder/${id}`, {
                 method: "DELETE",
                 headers: { "content-type": "application/json" }
             })

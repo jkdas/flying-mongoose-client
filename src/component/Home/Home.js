@@ -16,13 +16,13 @@ const Home = () => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://desolate-falls-28146.herokuapp.com/products')
             .then(res => res?.json())
             .then(data => setProducts(data))
     }, [])
 
     useEffect(() => {
-        fetch(`http://localhost:5000/allReviews`)
+        fetch(`https://desolate-falls-28146.herokuapp.com/allReviews`)
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
