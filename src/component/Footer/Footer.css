@@ -1,0 +1,19 @@
+
+  .footer-container {
+    height: auto;
+    background-color: rgb(48, 56, 65);
+    padding: 20px;
+    color: rgb(255, 245, 245);
+    margin-top: 50px;
+  }
+  .quick-links{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: yellow;
+    list-style: none;
+  }
+    
+  
+  

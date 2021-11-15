@@ -1,0 +1,15 @@
+.dashboard {
+    background-color: rgb(153, 156, 158);
+    height: 100vh;
+    color: white;
+  }
+
+.user-panel{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+  }
+
+.dashboard-button{
+    width: 200px;
+}

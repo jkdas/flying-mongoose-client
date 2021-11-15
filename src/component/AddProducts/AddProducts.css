@@ -1,0 +1,11 @@
+.add-new-product form{
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.add-new-product-button{
+    padding: 5px;
+    outline: none;
+}
