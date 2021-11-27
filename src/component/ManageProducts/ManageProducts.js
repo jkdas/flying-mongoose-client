@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
-import { useForm } from "react-hook-form";
+
 
 const ManageProducts = () => {
     const [products, setProducts] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Col, Container, FloatingLabel, Form, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
-import { Link, useHistory, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import './ProductDetail.css';
 import Header from '../Header/Header';

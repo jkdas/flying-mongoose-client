@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 
 
 const MakeAdmin = () => {
-    const { register, handleSubmit, reset, watch, errors } = useForm();
+    const { register, handleSubmit, reset } = useForm();
 
     const onSubmit = (data) => {
         fetch("https://desolate-falls-28146.herokuapp.com/makeAdmin", {
@@ -14,7 +14,7 @@ const MakeAdmin = () => {
             .then((res) => res.json())
             .then((result) => {
 
-                if (result.modifiedCount) {
+                if (result?.modifiedCount) {
                     alert("Admin added successfully")
                 }
                 else {

@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Dashbaord from "./component/Dashboard/Dashboard";
-import Header from "./component/Header/Header";
 import Home from './component/Home/Home';
 import Login from './component/Login/Login';
 import PrivateRoute from './component/Login/PrivateRoute/PrivateRoute';
@@ -34,9 +33,9 @@ function App() {
             <Route path="/register">
               <Register></Register>
             </Route>
-            <PrivateRoute path="/products">
+            <Route path="/products">
               <Products></Products>
-            </PrivateRoute>
+            </Route>
             <PrivateRoute path="/product/:id">
               <ProductDetail></ProductDetail>
             </PrivateRoute>
