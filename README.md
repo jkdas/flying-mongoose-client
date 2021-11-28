@@ -2,7 +2,7 @@
 
 ## Overview
 
-Flying Mongoose is the number 1 drone and related accessories supplier in Bangladesh. Since 2015 we are selling all kinds of commercial and professional UAV or DRONE and related accessories. We sold more than 500 units of drone. We also provide drones to Bangladesh Army, Navy, Airforce, Police, BGB, Cost guard and many other government and non government authorities and universities. We mainly sell DJI, JOUAV, AUTEL, JJRC, XIAOMI, HUBSAN and other models. We provide 1 year service warranty for most of our products. Our moto is ‘Fly Like A Bird’.
+Flying Mongoose is the number 1 drone and related accessories supplier in Bangladesh. Since 2021 we are selling all kinds of commercial and professional UAV or DRONE and related accessories. We sold more than 500 units of drone. We also provide drones to Bangladesh Army, Navy, Airforce, Police, BGB, Cost guard and many other government and non government authorities and universities. We mainly sell DJI, JOUAV, AUTEL, JJRC, XIAOMI, HUBSAN and other models. We provide 1 year service warranty for most of our products. Our moto is ‘Fly Like A Bird’.
 
 ## Live Link
 
