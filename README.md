@@ -10,8 +10,9 @@ https://flying-mongoos.web.app
  
 ## Key Features::
 
- - Worldwide Shipping Save time and money:  Harness the power of visual data to cut unnecessary scheduling hours and shave money off the budget..
- - Gain the competitive edge: Our advanced technology equips you with a powerful digital reconstruction, simplifying your workflow and streamlining your processes.
+ - Visitors can find any types of Drone and easily purchase Drone from this website. 
+ - Users can easily manage order, payment, review by using Dashboard option.
+ - Admin user can manage all products, order, add new products and can make anyone Admin by using Dashboard Feature 
  - Capitalize on best-in-class customer service: Our team of experts is there to answer your toughest questions via chat, phone, or email.
  - We take the security of our customers data very seriously and invest heavily in the security of our platform. We are committed to having a robust security program in place that puts the security and privacy of your data as our top priority.
  - We offering best rate for our product of any number. Combo Offer, Mega Offer, Big sale etc.
